@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "glitch-disc-bot"
+version = "0.1.0"
+description = "Discord bot that uses discord.py and supports deployment on glitch.com"
+authors = ["Ethan Ho <53266718+ethho@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.2"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
