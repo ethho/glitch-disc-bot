@@ -7,9 +7,9 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-discord-py = "^2.3.2"
-python-dotenv = "^1.0.0"
+python = "^3.7"
+discord-py = "*"
+python-dotenv = "*"
 
 [tool.poetry.group.dev.dependencies]
 
